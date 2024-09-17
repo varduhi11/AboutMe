@@ -22,9 +22,8 @@ a {
   text-decoration: none;
 }
 
-a.active {
-  color: #87c7a7;
-  text-decoration: underline;
+a.active, a.active {
+  font-weight: bold;
 }
 
 .clearfix::after, .clearfix::before {
